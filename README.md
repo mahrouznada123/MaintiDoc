@@ -81,7 +81,7 @@ psql maintidoc -c "CREATE EXTENSION IF NOT EXISTS vector;"
 2. Lance l'interface :
 
 ```bash
-streamlit run app.py
+streamlit run app.pypython -m pip install transformers pillow
 ```
 
 3. Clique sur **Indexation de tous les PDF**, puis pose ta question.
